@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    title Dance with D
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/img/logo.png")
+                | DS
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#intro 
+        div Welcome to Dance Studio 
+        div.small Eat Dance Sleep Repeat
+    
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                  img(src="/static/img/1.png")  
+                div.card-content 
+                    p this is the best dance acadamy  
+        div.card
+            h3 Dance the way you like 
+            div.card-box 
+                div.card-img 
+                  img(src="/static/img/2.png")  
+                div.card-content 
+                    p this is the best dance acadamy  
+        div.card
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img 
+                  img(src="/static/img/3.png")  
+                div.card-content 
+                    p this is the best dance acadamy     
+    section#sponsorSection
+        h2 Our Sponsors
+        div#sponsorS
+            img(src="/static/img/hp.png", alt="Sponsors Image" class="spImage")
+            img(src="/static/img/apple.png", alt="Sponsors Image" class="spImage")
+            img(src="/static/img/ms.png", alt="Sponsors Image" class="spImage")
+            img(src="/static/img/skype.png", alt="Sponsors Image" class="spImage")
+    footer#footer 
+        | Copyright © 2019 DanceStudio.com | All rights reserved  
+    script
+      include ../static/index.js

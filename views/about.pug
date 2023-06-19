@@ -1,0 +1,32 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style 
+    style
+      include ../static/style.css
+      include ../static/styleAbout.css
+
+block content 
+    div.conImg 
+        h1 About Us
+    div.container 
+        h1 About the Company 
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptas, adipisci ut illum maxime at harum temporibus assumenda recusandae nobis laudantium nemo quibusdam quidem. Quibusdam obcaecati libero quis incidunt ut et eos, quod doloribus totam dolore velit soluta atque accusantium molestias nulla, nobis error. Odit natus possimus iusto atque numquam nulla eaque provident rerum et, iure dolores repellendus delectus, voluptas expedita esse velit. Expedita, ex exercitationem? Modi reiciendis fugit quod voluptas porro eligendi dolore qui, temporibus labore dolor excepturi, ex minima perspiciatis. Tempora tempore vel sed aperiam ullam impedit pariatur soluta incidunt dicta odio accusamus cupiditate harum veniam, voluptate possimus.
+    section#testimonial 
+            div.overlay
+                div.container2
+                    h3 
+                        |    Client 
+                    h2
+                        | Testimonial    
+                    p   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut enim ea in reprehenderit pariatur quo nisi officiis aliquam aliquid, necessitatibus id sequi repudiandae provident quos consequuntur repellat cupiditate, est, voluptas error fugit?
+                div.client
+                    div.client-img 
+                        img(src="/static/img/img5.jpg")
+                    p.name 
+                        span 
+                        | Alicia Smith
+                        br
+                        | (CEO)
